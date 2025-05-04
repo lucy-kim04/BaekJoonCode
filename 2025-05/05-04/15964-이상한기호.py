@@ -1,8 +1,2 @@
-t = int(input())
-
-for _ in range(t):
-    r, s = input().split()
-    r = int(r)
-    for char in s:
-        print(char * r, end='')
-    print()
+a, b = map(int, input().split())
+print((a + b) * (a - b))
