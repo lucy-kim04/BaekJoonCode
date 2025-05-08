@@ -8,3 +8,6 @@ while len(q) > 1:
     q.append(q.popleft())
 
 print(q[0])
+
+def solution(n,m):
+    m - n*(m//n)
