@@ -1,4 +1,4 @@
-N = int(input())
+N = int(3)
 
 # 1
 # 1+6
